@@ -16,13 +16,13 @@ const comfortaa = localFont({
 
 export const metadata = {
   title: {
-    default: "Pool & Spa Service Professionals - Boise Pool Pros",
-    template: "%s - Boise Pool Pros",
+    default: "Pool & Spa Service Professionals - IdaHomeServ Pool & Spa",
+    template: "%s - IdaHomeServ Pool & Spa",
   },
   description:
     "We provide Residential & Commercial Pool & Spa Cleaning, Maintenance, Technical Services, Openings, Closings, Water Treatment, and many other services.",
   generator: "Next.js",
-  applicationName: "Boise Pool Pros Web App",
+  applicationName: "IdaHomeServ Pool & Spa Web App",
   referrer: "origin-when-cross-origin",
   keywords: [
     "pool openings",
@@ -30,7 +30,7 @@ export const metadata = {
     "pool opening services",
     "boise pool opening services",
     "Pool opening and closing services",
-    "Boise Pool Pros",
+    "IdaHomeServ Pool & Spa",
     "Pool maintenance services",
     "Spa maintenance services",
     "Pool cleaning services",
@@ -58,7 +58,7 @@ export const metadata = {
   creator: "Craig Kaufman",
   publishers: [{ name: "James Davis" }, { name: "Paul Elie" }],
 
-  metadataBase: new URL("https://www.boisepoolpros.com"),
+  metadataBase: new URL("https://www.idahomeserv.com"),
   alternates: {
     canonical: "/",
     languages: {
@@ -66,11 +66,11 @@ export const metadata = {
     },
   },
   openGraph: {
-    title: "Boise Pool Pros",
+    title: "IdaHomeServ Pool & Spa",
     description:
       "Your Pool & Spa Service Professionals - Residential & Commercial Services",
     url: "/",
-    siteName: "Pool & Spa Service Professionals - Boise Pool Pros",
+    siteName: "Pool & Spa Service Professionals - IdaHomeServ Pool & Spa",
     images: {
       url: "/og.jpg",
       width: 1200,
@@ -100,7 +100,7 @@ export default function RootLayout({ children }) {
         </div>
       </body>
 
-      <GoogleTagManager gtmId="G-8BZ8QJ3NEW" />
+      <GoogleTagManager gtmId="G-DXX4VQFTV3" />
     </html>
   );
 }

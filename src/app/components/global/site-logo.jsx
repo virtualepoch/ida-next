@@ -14,7 +14,7 @@ export const SiteLogo = ({
         className="site-logo"
         style={style}
         src={src}
-        alt="Boise Pool Pros Logo"
+        alt="IdaHomeServ Logo"
         width={333}
         height={333}
       />

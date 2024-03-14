@@ -1,8 +1,8 @@
 export default function manifest() {
   return {
-    name: "Boise Pool Pros",
+    name: "IdaHomeServ Pool & Spa",
     short_name: "Pool Pros",
-    description: "Boise Pool Pros App built with Next.js",
+    description: "IdaHomeServ Pool & Spa App built with Next.js",
     id: "/",
     start_url: "/",
     display: "standalone",

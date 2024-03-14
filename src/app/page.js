@@ -73,7 +73,7 @@ export default function Home() {
                     a clear, sparkling pool becomes irresistible.
                     <br />
                     <br />
-                    At Boise Pool Pros, we specialize in turning that
+                    At IdaHomeServ Pool & Spa, we specialize in turning that
                     anticipation into reality with our professional pool opening
                     services.
                   </h3>
@@ -129,7 +129,7 @@ export default function Home() {
                   threshold={0.1}
                 >
                   <h3>
-                    At Boise Pool Pros, we specialize in providing top-tier pool
+                    At IdaHomeServ Pool & Spa, we specialize in providing top-tier pool
                     services.
                     <br />
                     <br />

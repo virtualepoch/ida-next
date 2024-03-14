@@ -98,7 +98,7 @@ export const Footer = () => {
 
       <SiteLogo
         priority={false}
-        src="/logos/jpg333circle.jpg"
+        src="/logos/jpg333.jpg"
         style={{
           borderRadius: "100%",
           maxWidth: "140px",
@@ -109,12 +109,12 @@ export const Footer = () => {
       <div className="copyright-wrap">
         <p className="footer-info">(208) 475-4344</p>
 
-        <p className="footer-info">boisepoolpros@gmail.com</p>
+        <p className="footer-info">idahomeserv@gmail.com</p>
 
         <p className="footer-info">8670 West Pembrook Drive, Boise, ID 83704</p>
 
         <p className="footer-copyright">
-          &copy; 2024 Boise Pool Pros, all rights reserved.
+          &copy; 2024 IdaHomeServ LLC Pool & Spa, all rights reserved.
         </p>
 
         <p className="footer-info virtual-epoch-link-wrapper">

@@ -210,7 +210,7 @@ export default function Services() {
               imgSrc="/services/open1.jpg"
             >
               <p>
-                At Boise Pool Pros we understand the intricacies involved in
+                At IdaHomeServ Pool & Spa we understand the intricacies involved in
                 properly winterizing a pool.
                 <br />
                 <br />
@@ -226,7 +226,7 @@ export default function Services() {
         <div className={styles.sectionFooterWrap}>
           <div className={styles.sectionWhyChoose}>
             <h3 className={styles.whyChooseHeader}>
-              Why Choose Boise Pool Pros?
+              Why Choose IdaHomeServ Pool & Spa?
             </h3>
             <ul className={styles.whyChooseList}>
               <li className={styles.whyChooseItem}>
