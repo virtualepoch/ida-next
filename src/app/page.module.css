@@ -1,0 +1,317 @@
+/* HERO SECTION */
+.heroSection {
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+  height: fit-content;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.flexWrap {
+  width: 100%;
+  height: fit-content;
+  min-height: calc(90vh - 226px);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.heroHeaderWrap {
+  width: 100%;
+  height: fit-content;
+  /* overflow: hidden; */
+  background: linear-gradient(111deg, #3168ffaa 9%, transparent 78%);
+}
+
+.heroHeader {
+  position: relative;
+  padding: 32px;
+  color: #0ff;
+  font: 900 clamp(2.25rem, 1.3333rem + 4.0741vw, 5rem) var(--font-comfortaa);
+  text-shadow: var(--text-shadow-2), 2px 2px 7px #000a;
+}
+
+.heroServicesList {
+  width: fit-content;
+  height: fit-content;
+  margin: 32px;
+}
+
+.heroServicesList li {
+  width: fit-content;
+  color: #fff;
+  padding: 5px 5px 2px 20px;
+  font-size: 20px;
+  text-shadow: 0 0 5px #000;
+  background: radial-gradient(circle at 10px 50%, #fff 2px, transparent 4px),
+    linear-gradient(40deg, #3168ff44 9%, #56fff844 78%);
+  backdrop-filter: blur(10px);
+  border-radius: 5px;
+  box-shadow: 2px 2px 15px 1px #0007;
+}
+
+.heroStatement {
+  width: 100%;
+  padding: 32px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 4px #000;
+  font-family: var(--font-comfortaa);
+  background: #0002;
+  backdrop-filter: blur(7px);
+  box-shadow: 0 0 10px 1px #0007;
+}
+
+
+@media (max-width: 480px) {
+  .heroHeader {
+    padding: 32px 24px 24px;
+  }
+  .heroServicesList {
+    margin: 20px 24px;
+  }
+  .heroStatement {
+    font-size: 20px;
+    padding: 12px 24px 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .heroHeader {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 800px) {
+  .heroServicesList li {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 840px) {
+  .contentLastElement {
+    flex-direction: row-reverse;
+    gap: 0;
+  }
+}
+
+/* SECTION STYLE START ///////////////////////////////////// */
+.section {
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  /* !!!- Z-INDEX BELOW NEEDS TO BE SET AT- ( -1 )!!!" SO THAT THE "CONTACT BUTTON" IS ON TOP OF IT WHEN SCROLLING UP */
+  /* !!!- REALLY NOT NECESSARY BECAUSE YOU REALLY DON'T EVEN NOTICE THE EFFECT WHEN SCROLLING UP */
+  /* z-index: -1; */
+  padding: 50px 0;
+  background: var(--bg);
+}
+
+.wrap {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.headerWrap {
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  overflow: hidden;
+}
+
+.header {
+  width: 100%;
+  height: fit-content;
+  min-height: 100%;
+  padding: 50px 30px 20px;
+  display: flex;
+  align-items: center;
+  color: #3168ff;
+  font-size: clamp(2.25rem, 1.3333rem + 4.0741vw, 5rem);
+  font-family: var(--font-comfortaa);
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-size: 100%;
+  background-image: linear-gradient(111deg, #56fff8 9%, #0d0b88 78%);
+}
+
+.contentWrap {
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  /* overflow: hidden; */
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  min-height: 50vh;
+  z-index: 1;
+  position: relative;
+  padding: 32px;
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.statement {
+  width: fit-content;
+  max-width: 500px;
+  padding: 24px;
+  color: #fff;
+  font: 20px var(--font-comfortaa);
+  line-height: 28px;
+  text-shadow: 0 0 5px #000;
+  border-radius: 5px;
+  backdrop-filter: blur(10px);
+  box-shadow: 2px 2px 15px 1px #0007;
+  background: linear-gradient(40deg, #3168ff44 9%, #56fff844 78%);
+}
+
+.sectionLink{
+  width: 100%;
+  max-width: 280px;
+  margin: 24px auto 12px;
+  height: fit-content;
+  display: flex;
+}
+
+@media (min-width: 840px) {
+  .content {
+    flex-direction: row;
+    gap: 0;
+  }
+}
+
+.logo {
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+  box-shadow: 2px 2px 15px 1px #0007;
+}
+
+.actionBtnsWrap {
+  display: flex;
+  gap: 48px;
+  align-items: center;
+  /* border: solid red; */
+  padding: 24px 0 12px;
+}
+
+.bgImg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  object-position: 50% 35%;
+}
+
+@media (max-width: 480px) {
+  .content {
+    padding: 20px 24px;
+  }
+}
+@media (max-width: 800px) {
+  .actionBtnsWrap {
+    flex-direction: column;
+  }
+}
+/* SECTION STYLE END ///////////////////////////////////// */
+
+
+.swiperContainer {
+  width: 100%;
+  background: var(--bg);
+  padding-bottom: 100px;
+  font-family: var(--font-comfortaa);
+}
+
+.swiperHeader {
+  width: fit-content;
+  margin: auto;
+  padding: 32px;
+  font-size: 33px;
+}
+
+.swiperAutoFlow {
+  width: 100%;
+  max-width: 700px;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+.reviewContainer {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 24px;
+  /* box-shadow: 0 1px 10px 1px #0002; */
+}
+
+.avatar {
+  width: 40px;
+  height: auto;
+  aspect-ratio: 1;
+  margin-right: 10px;
+  border-radius: 100%;
+  background: url(/icons/account-circle-google.svg) center / 130%, #fafafe;
+}
+
+.clientName {
+  color: #111;
+  font-size: 18px;
+  font-weight: 900;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.verifiedIcon {
+  width: 24px;
+  aspect-ratio: 1;
+  background: url(/icons/verified-google-icon.svg) center / 100%;
+}
+
+.stars {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+}
+
+.star {
+  width: 25px;
+  aspect-ratio: 1;
+  height: auto;
+  background: url(/icons/star-solid.svg) center / 100% no-repeat;
+}
+
+.reviewText {
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.reviewLink {
+  text-decoration: underline;
+  color: #aaa;
+  font-size: 17px;
+}
