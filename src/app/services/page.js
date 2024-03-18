@@ -2,7 +2,6 @@ import Image from "next/image";
 import { ZoomBg } from "../components/global/zoom-bg";
 import { BtnAndModalContact } from "../components/ui/btn-and-modal-contact";
 import { BtnAndNav } from "./components/btn-and-nav";
-// import { InViewOpacityTransform } from "../components/global/in-view-opacity-transform";
 import { DetailsOpenings } from "./components/details-openings";
 import { DetailsCleaning } from "./components/details-cleaning";
 import { DetailsMaintenance } from "./components/details-maintenance";
@@ -16,10 +15,6 @@ const IMAGES = [
   { url: "/gallery/spa-0.jpg", alt: "image one", width: 2048, height: 1536 },
   { url: "/home/tech-1024.jpg", alt: "image one", width: 1024, height: 1365 },
 ];
-
-export const metadata = {
-  title: "Pool & Spa Services",
-};
 
 export default function Services() {
   return (
@@ -42,7 +37,6 @@ export default function Services() {
       <div className={styles.sections}>
         <BtnAndNav styles={styles} />
 
-        {/* OPENINGS /////////////////////////////////////////////////// */}
         <section className={styles.section} id="pool-openings">
           <h3
             className={styles.header}
@@ -77,7 +71,6 @@ export default function Services() {
           </div>
         </section>
 
-        {/* CLEANING /////////////////////////////////////////////////// */}
         <section className={styles.section} id="pool-spa-cleaning">
           <h3
             className={styles.header}
@@ -118,7 +111,6 @@ export default function Services() {
           </div>
         </section>
 
-        {/* MAINTENANCE /////////////////////////////////////////////////// */}
         <section className={styles.section} id="pool-spa-maintenance">
           <h3
             className={styles.header}
@@ -150,7 +142,6 @@ export default function Services() {
           </div>
         </section>
 
-        {/* TECHNICAL /////////////////////////////////////////////////// */}
         <section className={styles.section} id="technical-services">
           <h3
             className={styles.header}
@@ -186,7 +177,6 @@ export default function Services() {
           </div>
         </section>
 
-        {/* CLOSINGS /////////////////////////////////////////////////// */}
         <section className={styles.section} id="pool-closings">
           <h3
             className={styles.header}
@@ -210,8 +200,8 @@ export default function Services() {
               imgSrc="/services/open1.jpg"
             >
               <p>
-                At IdaHomeServ Pool & Spa we understand the intricacies involved in
-                properly winterizing a pool.
+                At IdaHomeServ Pool & Spa we understand the intricacies involved
+                in properly winterizing a pool.
                 <br />
                 <br />
                 From preventing algae growth and corrosion, to the precise

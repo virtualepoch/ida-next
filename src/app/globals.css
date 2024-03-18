@@ -176,7 +176,7 @@ button:focus {
 
 .site-logo-link {
   width: fit-content;
-  max-width: 200px;
+  max-width: 250px;
   height: auto;
   margin: auto;
   padding: 15px 10px 10px;
@@ -187,7 +187,7 @@ button:focus {
   height: auto;
   margin: auto;
   border-radius: 2px;
-  box-shadow: 0 0 5px 1px #0004;
+  filter: drop-shadow(0 1px 2px #000c);
 }
 
 .site-logo-link:focus-visible {

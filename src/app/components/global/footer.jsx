@@ -98,11 +98,10 @@ export const Footer = () => {
 
       <SiteLogo
         priority={false}
-        src="/logos/jpg333.jpg"
+        src="/logos/trans400.png"
         style={{
-          borderRadius: "100%",
-          maxWidth: "140px",
-          boxShadow: "1px 1px 10px 1px #000a",
+          maxWidth: "200px",
+          filter: "drop-shadow(1px 1px 5px #000a)",
         }}
       />
 

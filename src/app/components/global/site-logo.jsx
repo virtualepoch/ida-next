@@ -5,7 +5,7 @@ export const SiteLogo = ({
   onClick,
   priority,
   style,
-  src = "/logos/jpg333.jpg",
+  src = "/logos/trans400.png",
 }) => {
   return (
     <Link href="/" className="site-logo-link" onClick={onClick}>
